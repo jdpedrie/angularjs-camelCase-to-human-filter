@@ -1,6 +1,5 @@
 {
   "name": "angularjs-camelCase-human",
-  "version": "0.0.1",
   "main": "camelCaseToHuman.js",
   "author": "John Dennis Pedrie",
   "dependencies": {
