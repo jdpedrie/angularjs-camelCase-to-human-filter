@@ -2,6 +2,7 @@
   "name": "angularjs-camelCase-human",
   "main": "camelCaseToHuman.js",
   "author": "John Dennis Pedrie",
+  "license": "MIT",
   "dependencies": {
     "angular": "~1"
   }
