@@ -1,6 +1,6 @@
 {
   "name": "angularjs-camelCase-human",
-  "main": "camelCaseToHuman.js",
+  "main": "camelcase-browser.js",
   "author": "John Dennis Pedrie",
   "license": "MIT",
   "dependencies": {

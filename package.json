@@ -1,0 +1,37 @@
+{
+  "name": "angularjs-camelCase-human",
+  "version": "2.0.0",
+  "description": "Convert CamelCase strings to human readable ones",
+  "keywords": [
+    "browser",
+    "angular",
+    "camelcase",
+    "filter"
+  ],
+  "repository": "jdpedrie/angularjs-camelCase-to-human-filter",
+  "author": "John Dennis Pedrie <john@pedrie.com> (http://johnpedrie.com)",
+  "license": "MIT",
+  "main": "camelcase-browser.js",
+  "files": [
+    "index.js",
+    "LICENSE.md"
+  ],
+  "devDependencies": {
+    "angular": "^1.3.15",
+    "angular-mocks": "^1.3.15",
+    "browserify": "^9.0.3",
+    "chai": "^2.1.2",
+    "karma": "^0.12.31",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-mocha": "^0.1.10",
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "decamelize": "1.0.0"
+  },
+  "scripts": {
+    "browser": "browserify -o camelcase-browser.js index.js",
+    "test": "./node_modules/karma/bin/karma start"
+  }
+}
