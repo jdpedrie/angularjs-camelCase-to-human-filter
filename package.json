@@ -1,7 +1,7 @@
 {
-  "name": "angularjs-camelCase-human",
+  "name": "angular-camelcase-to-human",
   "version": "1.0.0",
-  "description": "Convert CamelCase strings to human readable ones",
+  "description": "Convert camelCase strings to human readable ones",
   "keywords": [
     "browser",
     "angular",
