@@ -32,7 +32,7 @@ In your template:
 In your JS:
 
 ````javascript
-angular.module('MpApp').controller(function($scope, $filter) {
+angular.module('MyApp', ['camelCaseToHuman']).controller(function($scope, $filter) {
     var camelCase = $filter('camelCaseToHuman');
 
     $scope.randomThing = camelcase('convertThis');
