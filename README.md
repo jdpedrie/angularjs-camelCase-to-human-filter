@@ -3,7 +3,7 @@
 
     {{camelCaseString | camelCaseToHuman}}
 
-Converts e.g. myCamelCaseString => My Camel Case String
+Converts e.g. myCamelCaseString => My Camel Case String. **NOTE: This library is untested with Angular 2.x.**
 
 ## Installation
 
